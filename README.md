@@ -1,7 +1,8 @@
 
 ### Install AMD APP OpenCL SDK
 
-Download file `AMD-APP-SDK-v2.9-lnx64.tgz` from http://developer.amd.com/tools-and-sdks/opencl-zone/opencl-tools-sdks/amd-accelerated-parallel-processing-app-sdk/
+Download file `AMD-APP-SDK-v2.9-lnx64.tgz` from 
+http://developer.amd.com/tools-and-sdks/opencl-zone/opencl-tools-sdks/amd-accelerated-parallel-processing-app-sdk/
 
 ``` bash
 cd ~/Downloads/
@@ -12,7 +13,8 @@ tar xzf AMD-APP-SDK-v2.9-lnx64.tgz
 echo Yes | sudo ./Install-AMD-APP.sh 
 ```
 
-test
+Run `clinfo` utility to test that SDK installed properly:
+
 ``` bash
 clinfo 
 ```
